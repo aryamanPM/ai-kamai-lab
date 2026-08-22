@@ -1,0 +1,52 @@
+agents:
+  manager:
+    role: orchestrator
+    priority: 100
+  researcher:
+    role: trend_and_opportunity_research
+    priority: 95
+  strategist:
+    role: content_strategy
+    priority: 90
+  copywriter:
+    role: hooks_scripts_captions
+    priority: 90
+  post_creator:
+    role: carousel_and_static_content
+    priority: 80
+  reels_creator:
+    role: short_video_production
+    priority: 85
+  audio_finder:
+    role: audio_selection
+    priority: 60
+  marketing:
+    role: distribution_and_growth
+    priority: 75
+  community:
+    role: comments_and_conversation_triage
+    priority: 65
+  analytics:
+    role: performance_measurement
+    priority: 80
+  learning:
+    role: feedback_loop_optimization
+    priority: 85
+  monetization:
+    role: affiliate_brand_and_lead_opportunities
+    priority: 50
+  qa:
+    role: factual_brand_duplicate_and_policy_checks
+    priority: 100
+
+pipeline:
+  - research
+  - score
+  - select
+  - script
+  - produce
+  - qa
+  - approve
+  - publish
+  - measure
+  - learn
