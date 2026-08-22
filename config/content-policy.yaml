@@ -1,32 +1,57 @@
 brand:
   name: AI Kamai Lab
+  platform: YouTube
   language: Hinglish + simple English
-  audience: Indian SMBs, freelancers, creators and professionals
-  promise: Practical AI tools, workflows and experiments that save time or create business value
+  audience: India-first, globally understandable
+  promise: Useful ideas, experiments and workflows that help viewers work smarter, earn better or understand important technology shifts
+
+format_mix:
+  long_form: 60
+  shorts: 40
 
 content_mix:
-  evergreen: 70
-  trend_reactive: 20
-  experiments: 10
+  evergreen: 60
+  trend_reactive: 25
+  experiments: 15
 
 quality_gates:
-  minimum_score: 80
+  minimum_opportunity_score: 80
   require_source_for_current_claims: true
+  require_original_editorial_value: true
   reject_duplicate_topics: true
   reject_unverified_claims: true
   reject_fake_engagement: true
-  reject_spam_comments: true
-  reject_mass_following: true
+  reject_spam: true
   reject_copyright_infringing_assets: true
+  require_ai_disclosure_when_applicable: true
+  reject_mass_generated_low_value_content: true
+
+packaging:
+  optimize_title: true
+  optimize_thumbnail: true
+  optimize_first_30_seconds: true
+  test_multiple_hooks: true
 
 kpis:
   primary:
-    - shares
-    - saves
-    - watch_time
-    - completion_rate
-    - follows_per_reach
+    - click_through_rate
+    - average_view_duration
+    - audience_retention
+    - engaged_views
+    - returning_viewers
+    - subscribers_per_view
   secondary:
-    - comments
-    - profile_visits
     - likes
+    - comments
+    - shares
+    - revenue_per_mille
+    - affiliate_conversion
+
+monetization:
+  - ypp_ads
+  - youtube_premium
+  - youtube_shopping
+  - affiliate
+  - brand_partnerships
+  - digital_products
+  - services
