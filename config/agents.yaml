@@ -1,50 +1,64 @@
 agents:
   manager:
-    role: orchestrator
+    role: youtube_orchestrator
     priority: 100
   researcher:
-    role: trend_and_opportunity_research
+    role: trend_competitor_and_audience_research
     priority: 95
   strategist:
-    role: content_strategy
+    role: channel_positioning_and_content_strategy
+    priority: 94
+  topic_selector:
+    role: topic_opportunity_scoring_and_selection
+    priority: 93
+  scriptwriter:
+    role: long_form_and_shorts_scripts
+    priority: 92
+  fact_checker:
+    role: source_validation_and_claim_checking
+    priority: 100
+  voice_audio:
+    role: narration_music_and_audio_selection
+    priority: 70
+  video_producer:
+    role: long_form_video_assembly
+    priority: 88
+  shorts_producer:
+    role: shorts_repurposing_and_native_short_form
+    priority: 87
+  thumbnail_packager:
+    role: thumbnail_title_and_packaging_optimization
     priority: 90
-  copywriter:
-    role: hooks_scripts_captions
-    priority: 90
-  post_creator:
-    role: carousel_and_static_content
+  seo:
+    role: title_description_keyword_and_chapter_optimization
     priority: 80
-  reels_creator:
-    role: short_video_production
+  qa:
+    role: originality_policy_copyright_ai_disclosure_and_quality_checks
+    priority: 100
+  publisher:
+    role: youtube_upload_scheduling_and_metadata
     priority: 85
-  audio_finder:
-    role: audio_selection
-    priority: 60
-  marketing:
-    role: distribution_and_growth
-    priority: 75
   community:
-    role: comments_and_conversation_triage
+    role: comments_posts_and_audience_feedback
     priority: 65
   analytics:
-    role: performance_measurement
-    priority: 80
+    role: youtube_performance_analysis
+    priority: 90
   learning:
-    role: feedback_loop_optimization
-    priority: 85
+    role: performance_feedback_and_strategy_optimization
+    priority: 95
   monetization:
-    role: affiliate_brand_and_lead_opportunities
-    priority: 50
-  qa:
-    role: factual_brand_duplicate_and_policy_checks
-    priority: 100
+    role: ypp_shopping_affiliate_brand_and_product_opportunities
+    priority: 60
 
 pipeline:
   - research
   - score
   - select
   - script
+  - fact_check
   - produce
+  - package
   - qa
   - approve
   - publish
