@@ -1,0 +1,32 @@
+brand:
+  name: AI Kamai Lab
+  language: Hinglish + simple English
+  audience: Indian SMBs, freelancers, creators and professionals
+  promise: Practical AI tools, workflows and experiments that save time or create business value
+
+content_mix:
+  evergreen: 70
+  trend_reactive: 20
+  experiments: 10
+
+quality_gates:
+  minimum_score: 80
+  require_source_for_current_claims: true
+  reject_duplicate_topics: true
+  reject_unverified_claims: true
+  reject_fake_engagement: true
+  reject_spam_comments: true
+  reject_mass_following: true
+  reject_copyright_infringing_assets: true
+
+kpis:
+  primary:
+    - shares
+    - saves
+    - watch_time
+    - completion_rate
+    - follows_per_reach
+  secondary:
+    - comments
+    - profile_visits
+    - likes
