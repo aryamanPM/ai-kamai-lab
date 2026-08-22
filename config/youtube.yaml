@@ -1,0 +1,39 @@
+platform: youtube
+channel_name: AI Kamai Lab
+language: Hinglish + simple English
+strategy:
+  long_form: 3_per_week
+  shorts: 1_per_day
+  pillars:
+    - practical_ai
+    - ai_automation
+    - ai_for_indian_business
+    - ai_money_and_productivity
+    - ai_experiments
+  mix:
+    evergreen: 60
+    trend_reactive: 25
+    experiments: 15
+kpis:
+  primary:
+    - impressions_ctr
+    - average_view_duration
+    - audience_retention
+    - returning_viewers
+    - subscribers_per_video
+  secondary:
+    - likes
+    - comments
+    - shares
+    - revenue
+monetization:
+  - ypp_ads
+  - youtube_shopping
+  - brand_partnerships
+  - affiliate
+  - digital_products
+rules:
+  no_reused_low_value_content: true
+  no_fake_engagement: true
+  require_fact_check_for_current_claims: true
+  require_original_editorial_value: true
