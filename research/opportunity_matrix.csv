@@ -1,0 +1,51 @@
+rank,topic,pillar,format,trend_score,demand_score,competition_gap,monetization_score,production_score,series_score,total_score,status
+1,AI agents that actually do work in India,AI Automation,Long+Short,96,94,86,93,88,98,92.5,priority
+2,Best AI tools for Indian small businesses,AI Business,Long+Short,94,92,88,96,90,96,92.7,priority
+3,AI automation for WhatsApp businesses,AI Automation,Long+Short,95,91,90,94,86,95,91.8,priority
+4,AI workflows that save 10 hours a week,Productivity,Long+Short,91,94,87,89,93,95,91.5,priority
+5,AI replacing repetitive office work in India,AI Careers,Long+Short,96,93,82,91,88,94,90.7,priority
+6,AI tools every Indian freelancer should use,AI Careers,Long+Short,92,90,87,94,91,94,91.3,priority
+7,AI for Indian students: research notes exams,AI Education,Long+Short,94,95,84,86,92,97,91.3,priority
+8,AI tools for job seekers in India,AI Careers,Long+Short,93,94,86,91,92,96,91.8,priority
+9,Agentic AI explained with real business examples,AI Business,Long+Short,97,88,79,92,85,96,88.9,priority
+10,Build a useful AI agent without coding,AI Automation,Long+Short,95,92,83,89,84,94,89.5,priority
+11,AI tools that can replace five subscriptions,AI Tools,Long+Short,90,91,88,96,90,91,91.0,priority
+12,Free AI tools worth using in 2026,AI Tools,Long+Short,92,95,78,91,94,93,90.2,priority
+13,Best free AI tools for Indian creators,AI Creator,Long+Short,91,91,84,93,93,94,90.7,priority
+14,AI video creation stack for a zero-budget creator,AI Creator,Long+Short,93,89,84,92,86,96,89.7,priority
+15,How to build a faceless YouTube workflow with AI,AI Creator,Long+Short,94,90,81,91,82,96,88.7,priority
+16,AI tools for local Indian shops and services,AI Business,Long+Short,91,89,91,95,87,94,91.0,priority
+17,Automate invoices and follow-ups with AI,AI Business,Long+Short,90,88,89,95,90,92,90.0,priority
+18,AI customer support for small businesses,AI Business,Long+Short,92,88,86,96,85,94,89.5,priority
+19,AI lead generation for Indian businesses,AI Business,Long+Short,93,90,82,97,86,95,89.5,priority
+20,AI marketing systems for small businesses,AI Business,Long+Short,92,91,83,97,85,95,89.7,priority
+21,AI for Excel and spreadsheets,Productivity,Long+Short,88,94,83,90,96,95,91.0,priority
+22,AI for PowerPoint presentations,Productivity,Long+Short,86,90,85,89,96,93,89.7,priority
+23,AI email automation for professionals,Productivity,Long+Short,87,89,88,91,95,92,90.3,priority
+24,AI meeting notes and action automation,Productivity,Long+Short,88,88,87,91,94,92,89.7,priority
+25,AI research workflows for professionals,Productivity,Long+Short,92,91,82,90,90,95,90.0,priority
+26,AI coding assistants tested on real tasks,AI Tools,Long+Short,91,89,78,90,82,96,87.7,test
+27,AI website builders tested on Indian business use cases,AI Tools,Long+Short,89,88,82,94,85,93,88.5,test
+28,AI image generators tested for business content,AI Tools,Long+Short,88,87,80,92,88,93,87.7,test
+29,AI voice tools tested for Indian languages,AI Creator,Long+Short,92,87,81,91,86,94,88.5,test
+30,AI dubbing for Indian creators,AI Creator,Long+Short,94,86,83,90,87,95,89.2,test
+31,Turn one video into ten pieces of content with AI,AI Creator,Long+Short,91,90,84,91,88,97,90.2,test
+32,AI Shorts factory: what actually works,AI Creator,Long+Short,90,89,80,89,82,95,87.5,test
+33,AI thumbnail testing and CTR experiments,YouTube Growth,Long+Short,88,87,83,92,90,94,89.0,test
+34,YouTube automation mistakes that kill channels,YouTube Growth,Long+Short,90,92,85,90,93,96,91.0,test
+35,How YouTube monetization really works in India,YouTube Growth,Long+Short,89,94,80,96,94,95,91.3,test
+36,YouTube Shopping and AI product research,Commerce,Long+Short,93,91,78,98,87,95,90.3,test
+37,Best tech products discovered with AI research,Commerce,Long+Short,86,92,75,98,84,94,88.2,test
+38,AI tools under free or low-cost plans compared,AI Tools,Long+Short,89,93,79,96,92,94,90.3,test
+39,AI subscriptions: which are actually worth paying for,AI Tools,Long+Short,87,94,81,97,91,93,90.5,test
+40,AI vs human productivity experiments,AI Experiments,Long+Short,95,90,84,88,82,99,90.2,test
+41,30-day AI productivity experiment,AI Experiments,Long+Short,94,89,86,88,79,99,89.2,test
+42,Can AI run a small business? experiment series,AI Experiments,Long+Short,97,92,89,94,76,99,92.0,priority
+43,I replaced a normal workflow with AI for 7 days,AI Experiments,Long+Short,93,91,87,89,81,98,90.5,priority
+44,AI side hustles tested honestly in India,AI Money,Long+Short,95,94,82,97,84,98,91.7,priority
+45,AI freelancing experiments: income vs effort,AI Money,Long+Short,94,92,83,97,82,97,90.8,priority
+46,AI for Indian finance professionals,AI Business,Long+Short,89,86,84,95,84,92,87.8,test
+47,AI for sales teams and relationship managers,AI Business,Long+Short,91,88,89,96,87,94,90.8,priority
+48,AI for insurance and banking workflows,AI Business,Long+Short,90,86,88,96,83,94,89.5,test
+49,AI cybersecurity basics for normal businesses,AI Business,Long+Short,88,87,85,93,80,91,87.0,test
+50,What AI changes next for Indian jobs and businesses,AI Trends,Long+Short,97,94,79,91,88,98,90.5,priority
