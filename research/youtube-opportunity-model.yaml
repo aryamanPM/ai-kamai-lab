@@ -1,0 +1,32 @@
+version: 1
+platform: youtube
+market: India
+language: Hinglish + simple English
+
+scoring:
+  demand: 20
+  trend_velocity: 15
+  competition_gap: 15
+  retention_potential: 15
+  monetization: 15
+  search_intent: 10
+  production_feasibility: 5
+  series_depth: 5
+
+rules:
+  - Prefer repeatable formats over one-off viral topics.
+  - Penalize topics requiring expensive filming or copyrighted footage.
+  - Require a credible source for current factual claims.
+  - Avoid medical, financial or legal claims without appropriate verification.
+  - Prefer topics with multiple monetization paths.
+  - Treat RPM estimates from third-party sites as directional only.
+
+candidate_niches:
+  - AI tools and automation for Indians
+  - personal finance education
+  - AI-assisted business intelligence for Indian SMBs
+  - technology explainers and product research
+  - Indian business and technology case studies
+  - career transformation through AI
+  - regional-language AI education
+  - productivity systems and software workflows
