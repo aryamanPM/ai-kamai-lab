@@ -1,0 +1,39 @@
+channel:
+  name: AI Kamai Lab
+  handle: '@TheAIKamaiLab'
+  platform: youtube
+  audience: India
+  language: Hinglish + simple English
+  positioning: Practical AI, automation, technology and money-saving workflows for India
+
+publishing:
+  long_form_per_week: 3
+  shorts_per_week: 7
+  approval_required_initially: true
+
+api:
+  provider: youtube_data_api
+  auth: oauth2
+  required_scopes:
+    - https://www.googleapis.com/auth/youtube.upload
+    - https://www.googleapis.com/auth/youtube.readonly
+    - https://www.googleapis.com/auth/yt-analytics.readonly
+
+security:
+  secrets_from_environment: true
+  never_commit_tokens: true
+
+pipeline:
+  - research
+  - score
+  - select
+  - script
+  - fact_check
+  - produce
+  - thumbnail
+  - seo
+  - qa
+  - approve
+  - publish
+  - analytics
+  - learn
